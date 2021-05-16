@@ -32,7 +32,6 @@
             this.TmrSpeaking = new System.Windows.Forms.Timer(this.components);
             this.btnSwitch = new System.Windows.Forms.Button();
             this.lblTexto = new System.Windows.Forms.Label();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // TmrSpeaking
@@ -42,7 +41,7 @@
             // 
             // btnSwitch
             // 
-            this.btnSwitch.Location = new System.Drawing.Point(75, 137);
+            this.btnSwitch.Location = new System.Drawing.Point(222, 139);
             this.btnSwitch.Name = "btnSwitch";
             this.btnSwitch.Size = new System.Drawing.Size(75, 23);
             this.btnSwitch.TabIndex = 0;
@@ -62,11 +61,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(243, 196);
+            this.ClientSize = new System.Drawing.Size(515, 196);
             this.Controls.Add(this.lblTexto);
             this.Controls.Add(this.btnSwitch);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SpeechApp";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -78,7 +77,6 @@
         private System.Windows.Forms.Timer TmrSpeaking;
         private System.Windows.Forms.Button btnSwitch;
         private System.Windows.Forms.Label lblTexto;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
